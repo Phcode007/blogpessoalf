@@ -20,7 +20,9 @@ function Navbar() {
             Blog Pessoal
           </Link>
           <div className="flex gap-4">
-            <Link to="/postagens">Postagens</Link>
+            <Link to="/postagens" className="hover:underline">
+              Postagens
+            </Link>
             <Link to="/temas" className="hover:underline">
               Temas
             </Link>
